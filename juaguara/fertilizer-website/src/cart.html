@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrinho - Juaguara Fertilizantes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<div class="dashboard">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <i class="fa-solid fa-leaf"></i>
+            <span>Juaguara</span>
+        </div>
+        <nav>
+            <a href="index.html"><i class="fa fa-home"></i> Início</a>
+            <a href="products.html"><i class="fa fa-seedling"></i> Produtos</a>
+            <a href="cart.html" class="active"><i class="fa fa-shopping-cart"></i> Carrinho</a>
+            <a href="address.html"><i class="fa fa-map-marker-alt"></i> Endereço</a>
+            <a href="purchase.html"><i class="fa fa-credit-card"></i> Comprar</a>
+            <a href="login.html"><i class="fa fa-sign-out-alt"></i> Logout</a>
+        </nav>
+    </aside>
+    <main class="main-content">
+        <header class="main-header">
+            <h2>Carrinho</h2>
+        </header>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Total</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fertilizante NPK</td>
+                        <td>2</td>
+                        <td>R$ 50,00</td>
+                        <td>R$ 100,00</td>
+                        <td>
+                            <button class="icon-btn"><i class="fa fa-trash"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div style="margin-top:1.5rem; text-align:right;">
+            <strong>Total: R$ 100,00</strong>
+        </div>
+        <div style="margin-top:2rem; display:flex; gap:1rem;">
+            <a href="products.html" class="btn-secondary"><i class="fa fa-arrow-left"></i> Continuar Comprando</a>
+            <a href="address.html" class="btn-primary"><i class="fa fa-map-marker-alt"></i> Endereço de Entrega</a>
+        </div>
+    </main>
+</div>
+</body>
+</html>

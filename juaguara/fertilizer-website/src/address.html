@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Endereço - Juaguara Fertilizantes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<div class="dashboard">
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <i class="fa-solid fa-leaf"></i>
+            <span>Juaguara</span>
+        </div>
+        <nav>
+            <a href="index.html"><i class="fa fa-home"></i> Início</a>
+            <a href="products.html"><i class="fa fa-seedling"></i> Produtos</a>
+            <a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrinho</a>
+            <a href="address.html" class="active"><i class="fa fa-map-marker-alt"></i> Endereço</a>
+            <a href="purchase.html"><i class="fa fa-credit-card"></i> Comprar</a>
+            <a href="login.html"><i class="fa fa-sign-out-alt"></i> Logout</a>
+        </nav>
+    </aside>
+    <main class="main-content">
+        <header class="main-header">
+            <h2>Endereço de Entrega</h2>
+        </header>
+        <form>
+            <div class="form-group">
+                <label for="rua">Rua, número</label>
+                <input type="text" id="rua" required>
+            </div>
+            <div class="form-group">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" required>
+            </div>
+            <div class="form-group">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" required>
+            </div>
+            <button type="submit" class="btn-primary"><i class="fa fa-save"></i> Salvar Endereço</button>
+        </form>
+        <div style="margin-top:2rem; display:flex; gap:1rem;">
+            <a href="cart.html" class="btn-secondary"><i class="fa fa-arrow-left"></i> Voltar ao Carrinho</a>
+            <a href="purchase.html" class="btn-primary"><i class="fa fa-credit-card"></i> Finalizar Compra</a>
+        </div>
+    </main>
+</div>
+</body>
+</html>
